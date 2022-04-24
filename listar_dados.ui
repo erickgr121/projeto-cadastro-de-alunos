@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>583</width>
+    <height>559</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QRadioButton" name="radioButton">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>10</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20;
+font: 75 12pt &quot;Script MT Bold&quot;;
+border-width: 2px;
+border-style: outset;
+border-color: black;
+background-color:rgb(255, 152, 34)</string>
+    </property>
+    <property name="text">
+     <string>Escola</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>90</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20;
+font: 75 12pt &quot;Script MT Bold&quot;;
+border-width: 2px;
+border-style: outset;
+border-color: black;
+background-color:rgb(255, 152, 34)</string>
+    </property>
+    <property name="text">
+     <string>Integral</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_3">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>170</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20;
+font: 75 12pt &quot;Script MT Bold&quot;;
+border-width: 2px;
+border-style: outset;
+border-color: black;
+background-color:rgb(255, 152, 34)</string>
+    </property>
+    <property name="text">
+     <string>Integral 2 dias</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>250</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20;
+font: 75 12pt &quot;Script MT Bold&quot;;
+border-width: 2px;
+border-style: outset;
+border-color: black;
+background-color:rgb(255, 152, 34)</string>
+    </property>
+    <property name="text">
+     <string>Integral 3 dias</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>511</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20;
+font: 75 15pt &quot;Script MT Bold&quot;;
+border-width: 2px;
+border-style: outset;
+border-color: black;
+background-color:rgb(255, 152, 34)</string>
+    </property>
+    <property name="text">
+     <string>Escola:  R$300, 4 hrs/dia, 5 dias/semana, 20hrs/semana</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>511</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20;
+font: 75 15pt &quot;Script MT Bold&quot;;
+border-width: 2px;
+border-style: outset;
+border-color: black;
+background-color:rgb(255, 152, 34)</string>
+    </property>
+    <property name="text">
+     <string>Integral:  R$800, 10 hrs/dia, 5 dias/semana, 50hrs/semana</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>270</y>
+      <width>511</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20;
+font: 75 13pt &quot;Script MT Bold&quot;;
+border-width: 2px;
+border-style: outset;
+border-color: black;
+background-color:rgb(255, 152, 34)</string>
+    </property>
+    <property name="text">
+     <string>Integral 3 dias:  R$500, 10 hrs/dia, 3 dias/semana, 30hrs/semana</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>190</y>
+      <width>511</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20;
+font: 75 13pt &quot;Script MT Bold&quot;;
+border-width: 2px;
+border-style: outset;
+border-color: black;
+background-color:rgb(255, 152, 34)</string>
+    </property>
+    <property name="text">
+     <string>Integral 2 dias: R$400, 10 hrs/dia, 2 dias/semana, 20hrs/semana</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>350</y>
+      <width>511</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Script MT Bold</family>
+      <pointsize>12</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20;
+font: 75 12pt &quot;Script MT Bold&quot;;
+border-width: 2px;
+border-style: outset;
+border-color: black;
+background-color:rgb(255, 152, 34)</string>
+    </property>
+    <property name="text">
+     <string>Integral 2 dias+escola:  R$500, 6,24 hrs/dia, 5 dias/semana, 32hrs/semana</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>430</y>
+      <width>511</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20;
+font: 75 12pt &quot;Script MT Bold&quot;;
+border-width: 2px;
+border-style: outset;
+border-color: black;
+background-color:rgb(255, 152, 34)</string>
+    </property>
+    <property name="text">
+     <string>Integral 3 dias+escola:  R$600, 7,36 hrs/dia, 5 dias/semana, 38hrs/semana</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_5">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>330</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20;
+font: 75 12pt &quot;Script MT Bold&quot;;
+border-width: 2px;
+border-style: outset;
+border-color: black;
+background-color:rgb(255, 152, 34)</string>
+    </property>
+    <property name="text">
+     <string>Integral 2 dias+ escola</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_6">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>410</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20;
+font: 75 12pt &quot;Script MT Bold&quot;;
+border-width: 2px;
+border-style: outset;
+border-color: black;
+background-color:rgb(255, 152, 34)</string>
+    </property>
+    <property name="text">
+     <string>Integral 3 dias + escola</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>490</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20;
+font: 75 12pt &quot;Script MT Bold&quot;;
+border-width: 2px;
+border-style: outset;
+border-color: black;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>enviar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>583</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
